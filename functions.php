@@ -62,6 +62,7 @@ function starter_theme_setup()
 			'flex-height' => true,
 		)
 	);
+
 }
 
 add_action('after_setup_theme', 'starter_theme_setup');
@@ -121,4 +122,16 @@ require_once get_template_directory() . '/inc/tgm/starter-activation.php';
 require_once get_template_directory() . '/inc/options/index.php';
 
 require_once get_template_directory() . '/inc/demo-data/import.php';
+
+function wpdocs_create_blocks_mysite_block_init()
+{
+
+	register_block_type(trailingslashit(Theme_ROOT_PATH) . 'todo-list/build',
+		array(
+			'icon' => 'admin-home', /* omit 'dashicons-' prefix */
+		));
+
+}
+
+add_action('init', 'wpdocs_create_blocks_mysite_block_init');
 
