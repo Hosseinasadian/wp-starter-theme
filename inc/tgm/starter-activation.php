@@ -7,7 +7,7 @@ function starter_required_plugins()
 
 	$plugins = array(
 		array(
-			'name' => __('Redux', 'starter-theme'),
+			'name' => __('Redux', 'alma'),
 			'slug' => 'redux-framework',
 			'required' => true,
 			'force_activation' => true,
@@ -15,20 +15,64 @@ function starter_required_plugins()
 		),
 
 		array(
-			'name' => __('One Click Demo Import', 'pezeshkyar'),
-			'slug' => 'one-click-demo-import',
-			'required' => false,
-		),
+            'name' => __('Alma Core', 'alma'),
+            'slug' => 'alma-core',
+            'source' => get_template_directory() . '/inc/plugins/alma-core.zip',
+            'required' => true,
+            'version' => '1.1.3',
+            'force_activation' => true,
+            'force_deactivation' => true,
+            'external_url' => '',
+            'is_callable' => '',
+        ),
 
 		array(
-			'name' => __('Elementor', 'starter-theme'),
+			'name' => __('Elementor', 'alma'),
 			'slug' => 'elementor',
 			'required' => false,
 		),
 
 		array(
-			'name' => __('Woocommerce', 'pezeshkyar'),
+			'name' => __('Woocommerce', 'alma'),
 			'slug' => 'woocommerce',
+			'required' => false,
+		),
+
+		array(
+			'name' => __('WP Statistics', 'alma'),
+			'slug' => 'wp-statistics',
+			'required' => false,
+		),
+
+		array(
+            'name' => __('Wordpress Advanced Support Ticket', 'alma'),
+            'slug' => 'alma-core',
+            'source' => get_template_directory() . '/inc/plugins/wp-advanced-support-ticket.zip',
+            'required' => false,
+			'version' => '13.1.1',
+        ),
+
+		array(
+			'name' => __('Posts Like Dislike', 'alma'),
+			'slug' => 'posts-like-dislike',
+			'required' => false,
+		),
+
+		array(
+			'name' => __('Variation Swatches for WooCommerce', 'alma'),
+			'slug' => 'woo-variation-swatches',
+			'required' => false,
+		),
+
+		array(
+			'name' => __('WordPress Mail SMTP Plugin', 'alma'),
+			'slug' => 'wp-mail-smtp',
+			'required' => false,
+		),
+
+		array(
+			'name' => __('WordPress Parsi Date Plugin', 'alma'),
+			'slug' => 'wp-parsidate',
 			'required' => false,
 		),
 

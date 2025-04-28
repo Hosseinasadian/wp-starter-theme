@@ -7,6 +7,58 @@
  * @package Starter-theme
  */
 
+ function alm_post_metas(){
+	$post_date_meta_enabled = alm_get_option('post_date_meta_enabled');
+	$post_date_comments_count_enabled = alm_get_option('post_date_comments_count_enabled');
+	$post_date_author_enabled = alm_get_option('post_date_author_enabled');
+
+	if($post_date_meta_enabled || $post_date_comments_count_enabled || $post_date_author_enabled){
+
+		?>
+		<div class="entry-meta">
+			<?php if($post_date_meta_enabled):?>
+				<div class="alm-post-meta-item">
+				<svg class="alm-post-meta-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+					<path d="M6 1.5V3.75" stroke="#F5683C" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+					<path d="M12 1.5V3.75" stroke="#F5683C" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+					<path d="M2.625 6.8175H15.375" stroke="#F5683C" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+					<path d="M15.75 6.375V12.75C15.75 15 14.625 16.5 12 16.5H6C3.375 16.5 2.25 15 2.25 12.75V6.375C2.25 4.125 3.375 2.625 6 2.625H12C14.625 2.625 15.75 4.125 15.75 6.375Z" stroke="#F5683C" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+					<path d="M11.7713 10.275H11.778" stroke="#F5683C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+					<path d="M11.7713 12.525H11.778" stroke="#F5683C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+					<path d="M8.99686 10.275H9.00359" stroke="#F5683C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+					<path d="M8.99686 12.525H9.00359" stroke="#F5683C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+					<path d="M6.22049 10.275H6.22723" stroke="#F5683C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+					<path d="M6.22049 12.525H6.22723" stroke="#F5683C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+				</svg>
+				<?php echo get_the_date('Y/m/d') ?>
+				</div>
+			<?php endif;?>
+			<?php if($post_date_comments_count_enabled):?>
+				<div class="alm-post-meta-item">
+				<svg class="alm-post-meta-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+  					<path d="M6.375 7.875H11.625" stroke="#F5683C" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+					<path d="M5.25 13.8225H8.25L11.5875 16.0425C12.0825 16.3725 12.75 16.02 12.75 15.42V13.8225C15 13.8225 16.5 12.3225 16.5 10.0725V5.57251C16.5 3.32251 15 1.82251 12.75 1.82251H5.25C3 1.82251 1.5 3.32251 1.5 5.57251V10.0725C1.5 12.3225 3 13.8225 5.25 13.8225Z" stroke="#F5683C" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+				</svg>
+				<?php comments_number() ?>
+				</div>
+			<?php endif;?>
+			<?php if($post_date_author_enabled):?>
+				<div class="alm-post-meta-item">
+				<svg class="alm-post-meta-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+					<path d="M9 9C11.0711 9 12.75 7.32107 12.75 5.25C12.75 3.17893 11.0711 1.5 9 1.5C6.92893 1.5 5.25 3.17893 5.25 5.25C5.25 7.32107 6.92893 9 9 9Z" stroke="#F5683C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+					<path d="M14.4073 11.805L11.7523 14.46C11.6473 14.565 11.5498 14.76 11.5273 14.9025L11.3848 15.915C11.3323 16.2825 11.5873 16.5375 11.9548 16.485L12.9673 16.3425C13.1098 16.32 13.3123 16.2225 13.4098 16.1175L16.0648 13.4625C16.5223 13.005 16.7398 12.4725 16.0648 11.7975C15.3973 11.13 14.8648 11.3475 14.4073 11.805Z" stroke="#F5683C" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+					<path d="M14.0244 12.1875C14.2494 12.9975 14.8794 13.6275 15.6894 13.8525" stroke="#F5683C" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+					<path d="M2.55762 16.5C2.55762 13.5975 5.44514 11.25 9.00014 11.25C9.78014 11.25 10.5301 11.3625 11.2276 11.5725" stroke="#F5683C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+				</svg>
+				<?php the_author_posts_link(); ?>
+				</div>
+			<?php endif;?>
+		</div>
+		<?php
+
+	}
+ }
+
 if ( ! function_exists( 'starter_theme_posted_on' ) ) :
 	/**
 	 * Prints HTML with meta information for the current post-date/time.

@@ -1,0 +1,35 @@
+@font-face {
+    font-family: Yekan Bakh FaNum;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../../fonts/YekanBakhFaNum-Regular.woff') format('woff'),
+    url('../../fonts/YekanBakhFaNum-Regular.woff2') format('woff2');
+}
+
+body.rtl,
+body.rtl input,
+body.rtl textarea,
+body.rtl button,
+body.rtl .datepicker-plot-area,
+.rtl #wpadminbar *,
+.rtl h1, .rtl h2, .rtl h3, .rtl h4, .rtl h5, .rtl h6{
+    font-family: "Yekan Bakh FaNum", Sans-serif;
+}
+
+.rtl .redux-main .redux-accordion-field .redux-accordion-info .el{
+	float: left;
+}
+
+.rtl .redux-container-text .input_wrapper{
+	float: right;
+	clear: right;
+}
+
+.alm-pdate-alt{
+	display: none;
+}
+
+body.rtl .datepicker-plot-area .datepicker-navigator .pwt-btn-next,
+body.rtl .datepicker-plot-area .datepicker-navigator .pwt-btn-prev{
+	transform: rotate(180deg);
+}

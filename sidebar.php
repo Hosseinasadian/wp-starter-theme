@@ -7,11 +7,11 @@
  * @package Starter-theme
  */
 
-if ( ! is_active_sidebar( 'sidebar-1' ) ) {
+if ( ! is_active_sidebar( 'blog-sidebar' ) ) {
 	return;
 }
 ?>
 
-<aside id="secondary" class="widget-area">
-	<?php dynamic_sidebar( 'sidebar-1' ); ?>
-</aside><!-- #secondary -->
+<aside id="alm-archive-aside" class="alm-archive-aside">
+	<?php dynamic_sidebar( 'blog-sidebar' ); ?>
+</aside>

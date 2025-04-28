@@ -1,25 +1,17 @@
-/*!
-Theme Name: Starter-theme
-Theme URI: http://underscores.me/
-Author: Me
-Author URI: http://underscores.me/
-Description: Custom theme: Starter-theme, developed by Me
-Version: 1.0.0
-Tested up to: 5.4
-Requires PHP: 5.6
+/*
+Theme Name: Alma
+Theme URI: https://www.rtl-theme.com/alma-wordpress-theme
+Author: RTL-Theme
+Author URI: https://www.rtl-theme.com/author/hosseinasadian442
+Description: Alma is a WordPress e-commerce theme developed using Elementor and WooCommerce. Alma allows you to easily set up a professional online store and sell your products.
+Requires at least: 6.4
+Tested up to: 6.5
+Requires PHP: 7.0
+Version: 1.2.6
 License: GNU General Public License v2 or later
-License URI: LICENSE
-Text Domain: starter-theme
-Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
-
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned.
-
-Starter-theme is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
-Underscores is distributed under the terms of the GNU GPL v2 or later.
-
-Normalizing styles have been helped along thanks to the fine work of
-Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: alma
+Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, style-variations, accessibility-ready, blog, portfolio, news
 */
 
 /*--------------------------------------------------------------
@@ -66,7 +58,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-html {
+ html {
 	line-height: 1.15;
 	-webkit-text-size-adjust: 100%;
 }
@@ -415,10 +407,8 @@ h4,
 h5,
 h6 {
 	clear: both;
-}
-
-p {
-	margin-bottom: 1.5em;
+	padding: 0;
+	margin: 0;
 }
 
 dfn,
@@ -484,22 +474,18 @@ hr {
 
 ul,
 ol {
-	margin: 0 0 1.5em 3em;
+	margin: 0;
+	padding: 0;
 }
 
 ul {
-	list-style: disc;
+	list-style: none;
 }
 
 ol {
 	list-style: decimal;
 }
 
-li > ul,
-li > ol {
-	margin-bottom: 0;
-	margin-left: 1.5em;
-}
 
 dt {
 	font-weight: 700;
@@ -547,7 +533,7 @@ a:active {
 }
 
 a:focus {
-	outline: thin dotted;
+	outline: none;
 }
 
 a:hover,
@@ -747,19 +733,8 @@ textarea {
 	display: block;
 }
 
-.post,
-.page {
-	margin: 0 0 1.5em;
-}
-
 .updated:not(.published) {
 	display: none;
-}
-
-.page-content,
-.entry-content,
-.entry-summary {
-	margin: 1.5em 0 0;
 }
 
 .page-links {
@@ -966,4 +941,14 @@ textarea {
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 1.5em;
+}
+
+svg{
+    vertical-align: middle;
+}
+a{
+    text-decoration: none;
+}
+p{
+	margin: 0;
 }

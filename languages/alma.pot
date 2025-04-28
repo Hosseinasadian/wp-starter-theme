@@ -1,0 +1,1121 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Alma\n"
+"POT-Creation-Date: 2024-11-23 00:31+0330\n"
+"PO-Revision-Date: 2024-11-23 00:31+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: comments.php:30
+msgid "دیدگاه ها"
+msgstr ""
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:37
+#, php-format
+msgid "%1$s نظر در مورد &ldquo;%2$s&rdquo;"
+msgstr ""
+
+#: comments.php:66
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:80 functions.php:1187
+#: woocommerce/single-product-reviews.php:142
+msgid "Your review"
+msgstr ""
+
+#: elements/ALM_SWIPER.php:16
+msgid "اسلایدر پایه "
+msgstr ""
+
+#: elements/ALM_SWIPER.php:113
+msgid "تنظیمات اسلایدر"
+msgstr ""
+
+#: elements/ALM_SWIPER.php:121 elements/ALM_SWIPER.php:223
+msgid "تعداد اسلاید سفارشی سازی شود؟"
+msgstr ""
+
+#: elements/ALM_SWIPER.php:123 elements/ALM_SWIPER.php:164
+#: elements/ALM_SWIPER.php:177 elements/ALM_SWIPER.php:206
+#: elements/ALM_SWIPER.php:225 elements/ALM_SWIPER.php:255
+#: elements/ALM_SWIPER.php:264 elements/ALM_SWIPER.php:285
+#: elements/ALM_SWIPER.php:631
+msgid "بله"
+msgstr ""
+
+#: elements/ALM_SWIPER.php:124 elements/ALM_SWIPER.php:165
+#: elements/ALM_SWIPER.php:178 elements/ALM_SWIPER.php:207
+#: elements/ALM_SWIPER.php:226 elements/ALM_SWIPER.php:256
+#: elements/ALM_SWIPER.php:265 elements/ALM_SWIPER.php:286
+#: elements/ALM_SWIPER.php:630
+msgid "خیر"
+msgstr ""
+
+#: elements/ALM_SWIPER.php:134 elements/ALM_SWIPER.php:233
+msgid "چند اسلاید نشان داده شود؟"
+msgstr ""
+
+#: elements/ALM_SWIPER.php:150 elements/ALM_SWIPER.php:244
+msgid "فاصله بین اسلایدها"
+msgstr ""
+
+#: elements/ALM_SWIPER.php:162 elements/ALM_SWIPER.php:253
+msgid "دکمه های پیمایش نشان داده شود؟"
+msgstr ""
+
+#: elements/ALM_SWIPER.php:175 elements/ALM_SWIPER.php:262
+msgid "صفحه بندی نشان داده شود؟"
+msgstr ""
+
+#: elements/ALM_SWIPER.php:188 elements/ALM_SWIPER.php:271
+msgid "نوع صفحه بندی"
+msgstr ""
+
+#: elements/ALM_SWIPER.php:192 elements/ALM_SWIPER.php:275
+msgid "گلوله"
+msgstr ""
+
+#: elements/ALM_SWIPER.php:193 elements/ALM_SWIPER.php:276
+#: elements/ALM_SWIPER.php:662
+msgid "نوار پیشرفت"
+msgstr ""
+
+#: elements/ALM_SWIPER.php:204 elements/ALM_SWIPER.php:283
+msgid "پیوسته تکرار شود؟"
+msgstr ""
+
+#: elements/ALM_SWIPER.php:216
+msgid "عرض نقطه شکست"
+msgstr ""
+
+#: elements/ALM_SWIPER.php:293
+msgid "نقاط شکست"
+msgstr ""
+
+#: elements/ALM_SWIPER.php:307
+msgid "تنطیمات اسلایدر"
+msgstr ""
+
+#: elements/ALM_SWIPER.php:315
+msgid "فاصله داخلی اسلایدر"
+msgstr ""
+
+#: elements/ALM_SWIPER.php:326
+msgid "حاشیه خارجی اسلایدر"
+msgstr ""
+
+#: elements/ALM_SWIPER.php:338
+msgid "فاصله داخلی اسلایدها"
+msgstr ""
+
+#: elements/ALM_SWIPER.php:352
+msgid "پیمایش اسلایدر"
+msgstr ""
+
+#: elements/ALM_SWIPER.php:359 elements/ALM_SWIPER.php:879
+msgid "اندازه"
+msgstr ""
+
+#: elements/ALM_SWIPER.php:375 elements/ALM_SWIPER.php:922
+msgid "رنگ"
+msgstr ""
+
+#: elements/ALM_SWIPER.php:386
+msgid "رنگ هاور"
+msgstr ""
+
+#: elements/ALM_SWIPER.php:397
+msgid "فاصله افقی از کناره ها"
+msgstr ""
+
+#: elements/ALM_SWIPER.php:416
+msgid "مبنای عمودی"
+msgstr ""
+
+#: elements/ALM_SWIPER.php:420 elements/ALM_SWIPER.php:674
+#: elements/ALM_SWIPER.php:766
+msgid "بالا"
+msgstr ""
+
+#: elements/ALM_SWIPER.php:421 elements/ALM_SWIPER.php:675
+#: elements/ALM_SWIPER.php:767
+msgid "پایین"
+msgstr ""
+
+#: elements/ALM_SWIPER.php:428 elements/ALM_SWIPER.php:700
+#: elements/ALM_SWIPER.php:792
+msgid "فاصله از بالا"
+msgstr ""
+
+#: elements/ALM_SWIPER.php:446 elements/ALM_SWIPER.php:682
+#: elements/ALM_SWIPER.php:774
+msgid "فاصله از پایین"
+msgstr ""
+
+#: elements/ALM_SWIPER.php:465
+msgid "منحنی روی نوار پیمایش"
+msgstr ""
+
+#: elements/ALM_SWIPER.php:471
+msgid "شفاقیت منحنی روی نوار پیمایش"
+msgstr ""
+
+#: elements/ALM_SWIPER.php:491
+msgid "عرض"
+msgstr ""
+
+#: elements/ALM_SWIPER.php:507
+msgid "ارتفاع"
+msgstr ""
+
+#: elements/ALM_SWIPER.php:519
+msgid "پس زمینه دکمه بعدی"
+msgstr ""
+
+#: elements/ALM_SWIPER.php:535
+msgid "پس زمینه دکمه قبلی"
+msgstr ""
+
+#: elements/ALM_SWIPER.php:551
+msgid "پس زمینه هاور دکمه بعدی"
+msgstr ""
+
+#: elements/ALM_SWIPER.php:567
+msgid "پس زمینه هاور دکمه قبلی"
+msgstr ""
+
+#: elements/ALM_SWIPER.php:584
+msgid "فاصله داخلی دکمه بعدی"
+msgstr ""
+
+#: elements/ALM_SWIPER.php:595
+msgid "فاصله داخلی دکمه قبلی"
+msgstr ""
+
+#: elements/ALM_SWIPER.php:615
+msgid "شعاع دکمه های پیمایش"
+msgstr ""
+
+#: elements/ALM_SWIPER.php:628
+msgid "دکمه بعدی رو مخفی کن"
+msgstr ""
+
+#: elements/ALM_SWIPER.php:640
+msgid "دکمه قبلی رو مخفی کن"
+msgstr ""
+
+#: elements/ALM_SWIPER.php:642
+msgid "Show"
+msgstr ""
+
+#: elements/ALM_SWIPER.php:643
+msgid "Hide"
+msgstr ""
+
+#: elements/ALM_SWIPER.php:654
+msgid "صفحه بندی اسلایدر"
+msgstr ""
+
+#: elements/ALM_SWIPER.php:670 elements/ALM_SWIPER.php:762
+msgid "جایگاه"
+msgstr ""
+
+#: elements/ALM_SWIPER.php:718 elements/ALM_SWIPER.php:811
+msgid "فاصله افقی"
+msgstr ""
+
+#: elements/ALM_SWIPER.php:733
+msgid "پس زمینه"
+msgstr ""
+
+#: elements/ALM_SWIPER.php:743
+msgid "رنگ بخش تکمیل شده نوار پیشرفت"
+msgstr ""
+
+#: elements/ALM_SWIPER.php:753
+msgid "گلوله ها"
+msgstr ""
+
+#: elements/ALM_SWIPER.php:827
+msgid "انحراف محور"
+msgstr ""
+
+#: elements/ALM_SWIPER.php:829
+msgid "Default"
+msgstr ""
+
+#: elements/ALM_SWIPER.php:830
+msgid "Custom"
+msgstr ""
+
+#: elements/ALM_SWIPER.php:840
+msgid "محور X"
+msgstr ""
+
+#: elements/ALM_SWIPER.php:852
+msgid "محور Y"
+msgstr ""
+
+#: elements/ALM_SWIPER.php:864
+msgid "محور Z"
+msgstr ""
+
+#: elements/ALM_SWIPER.php:895
+msgid "شعاع"
+msgstr ""
+
+#: elements/ALM_SWIPER.php:911
+msgid "حاشیه خارجی"
+msgstr ""
+
+#: elements/ALM_SWIPER.php:933
+msgid "عرض گلوله در حالت فعال"
+msgstr ""
+
+#: functions.php:28 inc/demo-data/import.php:70
+msgid "Primary"
+msgstr ""
+
+#: functions.php:29
+msgid "Secondary"
+msgstr ""
+
+#: functions.php:83
+msgid "وبلاگ"
+msgstr ""
+
+#: functions.php:85
+msgid "سایدبار وبلاگ را مشخص کنید."
+msgstr ""
+
+#: functions.php:95
+msgid "فروشگاه"
+msgstr ""
+
+#: functions.php:97
+msgid "سایدبار فروشگاه را مشخص کنید."
+msgstr ""
+
+#: functions.php:125 functions.php:1570
+#, php-format
+msgid "حذف %s"
+msgstr ""
+
+#: functions.php:126 functions.php:1578
+msgid "برای بارگذاری یک عکس را اینجا بکشید و رها کنید"
+msgstr ""
+
+#: functions.php:127 functions.php:1579
+msgid "تصویر باید مربع و سایز 100 در 100 پیکسل باشد"
+msgstr ""
+
+#: functions.php:186 template-parts/404.php:16
+msgid "صفحه اصلی"
+msgstr ""
+
+#: functions.php:273
+msgid "صفحه"
+msgstr ""
+
+#: functions.php:277
+msgid "نتایج جستجوی "
+msgstr ""
+
+#: functions.php:333
+msgid "مشکلی در بارگذاری المنتور پیش آمده است"
+msgstr ""
+
+#: functions.php:395
+msgid "نام"
+msgstr ""
+
+#: functions.php:400
+msgid "آدرس ایمیل"
+msgstr ""
+
+#: functions.php:405
+msgid "آدرس وب سایت"
+msgstr ""
+
+#: functions.php:420
+msgid ""
+"Save my name, email, and website in this browser for the next time I comment."
+msgstr ""
+
+#: functions.php:430
+msgid "پیام شما"
+msgstr ""
+
+#: functions.php:472
+msgid "تاریخ:"
+msgstr ""
+
+#: functions.php:485
+msgid "دیدگاه شما در انتظار بررسی است."
+msgstr ""
+
+#: functions.php:507 functions.php:1152
+msgid "ویرایش"
+msgstr ""
+
+#: functions.php:557 woocommerce/loop/orderby.php:33
+msgid "مرتب سازی"
+msgstr ""
+
+#: functions.php:572
+msgid "پیش‌فرض"
+msgstr ""
+
+#: functions.php:573
+msgid "محبوب‌ترین"
+msgstr ""
+
+#: functions.php:574
+msgid "بیشترین امتیاز"
+msgstr ""
+
+#: functions.php:575 functions.php:1838
+msgid "جدیدترین"
+msgstr ""
+
+#: functions.php:576
+msgid "ارزانترین"
+msgstr ""
+
+#: functions.php:577
+msgid "گرانترین"
+msgstr ""
+
+#: functions.php:596
+msgid "Type 1"
+msgstr ""
+
+#: functions.php:597
+msgid "Type 2"
+msgstr ""
+
+#: functions.php:598
+msgid "Type 3"
+msgstr ""
+
+#: functions.php:599
+msgid "Type 4"
+msgstr ""
+
+#: functions.php:600
+msgid "Type 5"
+msgstr ""
+
+#: functions.php:608 functions.php:625
+msgid "نحوه نمایش کارت محصولات"
+msgstr ""
+
+#: functions.php:610 functions.php:628
+msgid "پیش فرض"
+msgstr ""
+
+#: functions.php:685
+msgid "خرید کن"
+msgstr ""
+
+#: functions.php:772
+msgid "موجود است"
+msgstr ""
+
+#: functions.php:781
+msgid "ناموجود"
+msgstr ""
+
+#: functions.php:1043
+msgid "فروش"
+msgstr ""
+
+#: functions.php:1048
+msgid "رضایت"
+msgstr ""
+
+#: functions.php:1053
+msgid "موجودی"
+msgstr ""
+
+#: functions.php:1065 template-parts/archive.php:39 template-parts/home.php:39
+msgid "قبلی"
+msgstr ""
+
+#: functions.php:1066 template-parts/archive.php:38 template-parts/home.php:38
+msgid "بعدی"
+msgstr ""
+
+#: functions.php:1096 functions.php:1101
+msgid "توضیحات"
+msgstr ""
+
+#: functions.php:1106 functions.php:1111
+msgid "مشخصات"
+msgstr ""
+
+#: functions.php:1116
+msgid "نظرات کاربران"
+msgstr ""
+
+#: functions.php:1199 woocommerce/single-product-reviews.php:132
+msgid "Your rating"
+msgstr ""
+
+#: functions.php:1200 woocommerce/single-product-reviews.php:133
+msgid "Rate&hellip;"
+msgstr ""
+
+#: functions.php:1201 woocommerce/single-product-reviews.php:134
+msgid "Perfect"
+msgstr ""
+
+#: functions.php:1202 woocommerce/single-product-reviews.php:135
+msgid "Good"
+msgstr ""
+
+#: functions.php:1203 woocommerce/single-product-reviews.php:136
+msgid "Average"
+msgstr ""
+
+#: functions.php:1204 woocommerce/single-product-reviews.php:137
+msgid "Not that bad"
+msgstr ""
+
+#: functions.php:1205 woocommerce/single-product-reviews.php:138
+msgid "Very poor"
+msgstr ""
+
+#: functions.php:1268
+msgid "سفارش تکمیل شده"
+msgstr ""
+
+#: functions.php:1278
+msgid "سفارش درانتظار پرداخت"
+msgstr ""
+
+#: functions.php:1287
+msgid "سفارش درحال انجام"
+msgstr ""
+
+#: functions.php:1294
+msgid "سفارش درانتظار بررسی"
+msgstr ""
+
+#: functions.php:1305
+msgid "سفارش لغو شده"
+msgstr ""
+
+#: functions.php:1365
+msgid "اطلاعات شخصی"
+msgstr ""
+
+#: functions.php:1372
+msgid "ویرایش اطلاعات"
+msgstr ""
+
+#: functions.php:1378
+msgid "نام و نام خانوادگی"
+msgstr ""
+
+#: functions.php:1385 functions.php:1757
+msgid "شماره موبایل"
+msgstr ""
+
+#: functions.php:1392
+msgid "ایمیل"
+msgstr ""
+
+#: functions.php:1399
+msgid "عضویت"
+msgstr ""
+
+#: functions.php:1406
+msgid "شهر"
+msgstr ""
+
+#: functions.php:1413 woocommerce/myaccount/my-address.php:146
+msgid "کدپستی"
+msgstr ""
+
+#: functions.php:1420
+msgid "آدرس"
+msgstr ""
+
+#: functions.php:1474
+msgid "سبدخرید"
+msgstr ""
+
+#: functions.php:1482
+msgid "جزئیات پرداخت"
+msgstr ""
+
+#: functions.php:1492
+msgid "تکمیل سفارش"
+msgstr ""
+
+#: functions.php:1516
+msgid "بازگشت به صفحه اصلی"
+msgstr ""
+
+#: functions.php:1561
+msgid "عکس پروفایل"
+msgstr ""
+
+#: functions.php:1663
+msgid "وارد کردن شماره موبایل الزامی است."
+msgstr ""
+
+#: functions.php:1670 functions.php:1689
+msgid "شماره وارد شده نامعتبر است"
+msgstr ""
+
+#: functions.php:1685
+msgid "شماره موبایل وارد شده قبلاً توسط کاربر دیگری استفاده شده است."
+msgstr ""
+
+#: functions.php:1694
+msgid "وارد کردن کد ملی الزامی است."
+msgstr ""
+
+#: functions.php:1699
+msgid "کد ملی وارد شده نامعتبر است."
+msgstr ""
+
+#: functions.php:1712
+msgid "کد ملی وارد شده قبلاً توسط کاربر دیگری استفاده شده است."
+msgstr ""
+
+#: functions.php:1752
+msgid "کدملی"
+msgstr ""
+
+#: functions.php:1841
+msgid "محبوب ترین"
+msgstr ""
+
+#: functions.php:1844
+msgid "پر بازدید ترین"
+msgstr ""
+
+#: inc/demo-data/import.php:7
+msgid "First Demo"
+msgstr ""
+
+#: inc/demo-data/import.php:23
+msgid "Second Demo"
+msgstr ""
+
+#: inc/demo-data/import.php:47
+msgid "Redux"
+msgstr ""
+
+#: inc/demo-data/import.php:52
+msgid "Elementor"
+msgstr ""
+
+#: inc/demo-data/import.php:57
+msgid "Woocommerce"
+msgstr ""
+
+#. translators: %s: post date.
+#: inc/template-tags.php:49
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#. translators: %s: post author.
+#: inc/template-tags.php:65
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:82
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of categories.
+#: inc/template-tags.php:85
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:89
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of tags.
+#: inc/template-tags.php:92
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#. translators: %s: post title
+#: inc/template-tags.php:102
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:119
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: template-parts/404.php:10
+msgid "این صفحه یافت نشد."
+msgstr ""
+
+#: template-parts/404.php:14
+msgid "صفحه قبل"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content.php:37
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: template-parts/search.php:16
+#, php-format
+msgid "نتایج جست و جو برای: %s"
+msgstr ""
+
+#: woocommerce/cart/cart.php:28
+msgid "Thumbnail image"
+msgstr ""
+
+#: woocommerce/cart/cart.php:29 woocommerce/cart/cart.php:70
+msgid "Product"
+msgstr ""
+
+#: woocommerce/cart/cart.php:30 woocommerce/cart/cart.php:95
+msgid "Price"
+msgstr ""
+
+#: woocommerce/cart/cart.php:31 woocommerce/cart/cart.php:101
+#: woocommerce/global/quantity-input.php:24
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:32 woocommerce/cart/cart.php:127
+#: woocommerce/checkout/review-order.php:50
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/cart/cart.php:33
+msgid "Remove item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:90
+msgid "Available on backorder"
+msgstr ""
+
+#. translators: %s is the product name
+#: woocommerce/cart/cart.php:146
+#, php-format
+msgid "Remove %s from cart"
+msgstr ""
+
+#: woocommerce/cart/cart.php:166
+msgid "Update cart"
+msgstr ""
+
+#: woocommerce/cart/cart.php:180 woocommerce/checkout/form-coupon.php:37
+msgid "Coupon:"
+msgstr ""
+
+#: woocommerce/cart/cart.php:180 woocommerce/checkout/form-coupon.php:38
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:180 woocommerce/checkout/form-coupon.php:42
+msgid "Apply coupon"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:26
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:30
+msgid "Pay for order"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:64
+msgid "Your order"
+msgstr ""
+
+#. translators: $1 and $2 opening and closing emphasis tags respectively
+#: woocommerce/checkout/form-checkout.php:75
+#, php-format
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the %1$sUpdate Totals%2$s button before placing your order. "
+"You may be charged more than the amount stated above if you fail to do so."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:77
+msgid "Update totals"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:29
+msgid "Have a coupon?"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:29
+msgid "Click here to enter your code"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:34
+msgid "If you have a coupon code, please apply it below."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:25
+msgid "انتخاب روش پرداخت"
+msgstr ""
+
+#: woocommerce/checkout/payment.php:35
+msgid ""
+"Sorry, it seems that there are no available payment methods. Please contact "
+"us if you require assistance or wish to make alternate arrangements."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:35
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:97
+msgid "Total"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:33
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/"
+"merchant has declined your transaction. Please attempt your purchase again."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:36
+msgid "Pay"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:38
+msgid "My account"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:49
+msgid "Order number:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:54
+msgid "Date:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:60
+msgid "Email:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:66
+msgid "Total:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:72
+msgid "Payment method:"
+msgstr ""
+
+#. translators: %s: Quantity.
+#: woocommerce/global/quantity-input.php:24
+#, php-format
+msgid "%s quantity"
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:51
+msgid "Product quantity"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:36
+msgid "Shop order"
+msgstr ""
+
+#: woocommerce/myaccount/downloads.php:52
+msgid "No downloads available yet."
+msgstr ""
+
+#: woocommerce/myaccount/downloads.php:54 woocommerce/myaccount/orders.php:117
+msgid "Browse products"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:27
+msgid "First name"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:31
+msgid "Last name"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:36
+msgid "Display name"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:37
+msgid ""
+"This will be how your name will be displayed in the account section and in "
+"reviews"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:41
+msgid "Email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:56
+msgid "گذرواژه پیشین"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:60
+msgid "گذرواژه جدید"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:64
+msgid "تکرار گذرواژه جدید"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:80
+msgid "Save changes"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:26
+#: woocommerce/myaccount/my-address.php:35
+#: woocommerce/order/order-details-customer.php:30
+msgid "Billing address"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:27
+#: woocommerce/order/order-details-customer.php:77
+msgid "Shipping address"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:47
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:100
+msgid "Edit"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:100
+msgid "Add"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:152
+msgid "تلفن"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:158
+msgid "آدرس ایمیل "
+msgstr ""
+
+#: woocommerce/myaccount/navigation.php:65
+msgid "Account pages"
+msgstr ""
+
+#. translators: 1: formatted order total 2: total order items
+#: woocommerce/myaccount/orders.php:64
+#, php-format
+msgid "%1$s for %2$s item"
+msgid_plural "%1$s for %2$s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/myaccount/orders.php:95
+msgid "Previous"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:99
+msgid "Next"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:116
+msgid "No order has been made yet."
+msgstr ""
+
+#. translators: 1: order number 2: order date 3: order status
+#: woocommerce/myaccount/view-order.php:28
+#, php-format
+msgid "Order #%1$s was placed on %2$s and is currently %3$s."
+msgstr ""
+
+#: woocommerce/myaccount/view-order.php:37
+msgid "Order updates"
+msgstr ""
+
+#: woocommerce/myaccount/view-order.php:43
+msgid "l jS \\o\\f F Y, h:ia"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:44
+#: woocommerce/order/order-details-customer.php:98
+#: woocommerce/single-product/meta.php:31
+msgid "N/A"
+msgstr ""
+
+#: woocommerce/order/order-downloads.php:24
+msgid "Downloads"
+msgstr ""
+
+#: woocommerce/order/order-downloads.php:73
+msgid "&infin;"
+msgstr ""
+
+#: woocommerce/order/order-downloads.php:79
+msgid "Never"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:31
+msgid "Reviews"
+msgstr ""
+
+#. translators: 1: reviews count 2: product name
+#: woocommerce/single-product-reviews.php:39
+#, php-format
+msgid "%1$s review for %2$s"
+msgid_plural "%1$s reviews for %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product-reviews.php:72
+msgid "There are no reviews yet."
+msgstr ""
+
+#. translators: %s is product title
+#: woocommerce/single-product-reviews.php:83
+msgid "Add a review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:83
+#, php-format
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr ""
+
+#. translators: %s is product title
+#: woocommerce/single-product-reviews.php:85
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:89
+msgid "Submit"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:97
+msgid "Name"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:103
+msgid "Email"
+msgstr ""
+
+#. translators: %s opening and closing link tags respectively
+#: woocommerce/single-product-reviews.php:128
+#, php-format
+msgid "You must be %1$slogged in%2$s to post a review."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:149
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: woocommerce/single-product/meta.php:31
+msgid "SKU:"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:35
+msgid "دسته: "
+msgstr ""
+
+#: woocommerce/single-product/meta.php:39
+msgid "برند: "
+msgstr ""
+
+#: woocommerce/single-product/related.php:27
+msgid "Related products"
+msgstr ""
+
+#: woocommerce/single-product/related.php:34
+msgid "مشاهده همه"
+msgstr ""
+
+#: woocommerce/single-product/review-meta.php:27
+msgid "Your review is awaiting approval"
+msgstr ""
+
+#: woocommerce/single-product/review-meta.php:37
+msgid "verified owner"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Alma"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://www.rtl-theme.com/alma-wordpress-theme"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Alma is a WordPress e-commerce theme developed using Elementor and "
+"WooCommerce. Alma allows you to easily set up a professional online store "
+"and sell your products."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "RTL-Theme"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.rtl-theme.com/author/hosseinasadian442"
+msgstr ""
